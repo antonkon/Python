@@ -45,6 +45,7 @@ class Phrase:
         return self.text
 
 if __name__ == '__main__':
+
     with open('task_data.json') as file1:
         data = json.load(file1)
     print(data)
