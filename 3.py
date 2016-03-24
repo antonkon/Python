@@ -30,7 +30,6 @@ class Phrase:
     def __init__(self,l):
         self.letters = sorted(l,key=lambda letter: letter.number)
 
-
     def __str__(self):
         return self.text
 
